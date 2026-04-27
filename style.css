@@ -65,7 +65,13 @@ body {
 .botoes {
     display: block;
 }
-    margin: 0 auto;
+
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+   
+margin: 0 auto;
 }
 
 .titulo-principal {
