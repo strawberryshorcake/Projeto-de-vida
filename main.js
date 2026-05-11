@@ -6,6 +6,7 @@ for(let i=0;i <botoes.length; i++){
 
        for(let j=0;j<botoes.length;j++){
            botoes[j].classList.remote("ativo");
+           textos[j].classList.remote("ativo");
        }
 
        botoes[i].classList.add("ativo");
